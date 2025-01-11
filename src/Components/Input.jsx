@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Ingredients from "./Ingredients";
 
 const Input = () => {
-  const [ingredients, setIngredients] = useState(["tea", "milk","sugar"]);
+  const [ingredients, setIngredients] = useState([]);
 
 
   const addIngredient = (event) => {
