@@ -1,40 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-* {
-  box-sizing: border-box;
-  font-family: "Inter";
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden; 
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(https://img.freepik.com/free-photo/delicious-black-pasta-dish-copy-space_23-2148469869.jpg?t=st=1736419972~exp=1736423572~hmac=cbb4dacd13f302f68f457d42b40811ebafcc86a438c76992fbe7262f06c36727&w=1060);
-  background-size: cover;
-  background-position: center;
-  z-index: -1; 
-  filter: blur(5px); 
-   
-}
-
-main {
-  position: relative; 
-  z-index: 1;
-  overflow-y: scroll;
-  height: 100vh;
-  width: 100%;
-}
